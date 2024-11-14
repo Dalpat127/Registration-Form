@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("img/wave-haikei.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.top{
+    background-color: rgb(24, 230, 244);
+    color: rgb(242, 101, 8);
+}
+h2{
+    font-size: 1.5rem;
+}
+.box{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+img{
+    width: 7rem;
+    height: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 10px;
+    margin-right: 1rem;
+    z-index: 10;
+}
+
+.register{
+    box-shadow: 3px 3px 25px rgb(4, 164, 251);
+    color: rgb(240, 238, 238);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+form input{
+    border: 1px solid lightgray;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+
+}
+.reg{
+    margin: 1.2rem;
+    font-size: 0.9rem;
+}
+input:hover{
+    border: 2px solid rgba(13, 255, 0, 0.672);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-field{
+    margin: 0.2rem;
+}
+button{
+    border-radius: 8px;
+    padding: 0.8rem 5rem;
+    margin-top: 0.2rem;
+    color: rgb(207, 205, 205);
+    background-color: rgba(7, 251, 251, 0.422);
+    font-size: 15px;
+    font-weight: 800;
+    opacity: 0.;
+    cursor: pointer;
+    border:none;
+}
+button:hover{
+    background-color: rgba(7, 251, 251, 0.185);
+
+}
+@media (max-width:500px) {
+    img{
+        opacity: 0;
+    }
+}
+
+
+
